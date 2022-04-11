@@ -9,8 +9,11 @@ Download UCETool.tar. Extract tar with following command.
 
 Needed files
 > 1. Flycast (reicast.elf): standalone Flycast program. (Compile by yourself)
-> 2. Bashlauncher (bash_launcher_libretro.so): A dummy libretro core to run shell script
+> 
+> 2. Bashlauncher (bash_launcher_libretro.so): A dummy libretro core to run shell script.
+> 
 > 3. Game rom (GAME.chd) : DC game rom. Use chd format file for better compatibility.
+> 
 > 4. Boxart (boxart.png): Boxart shows in UCE menu. PNG format with 222 x 306 resolution.
 
 ### Step 3 : Edit Shell Script
@@ -18,8 +21,11 @@ Needed files
 Edit RUN.sh as following. Example file can be found in UCE Tool.
 
 > #!/bin/sh
+> 
 > set -x
+> 
 > export HOME=../SAVE/upper
+> 
 > ./emu/reicast.elf ./emu/GAME.chd
 
 ### Step 4 : Edit exec.sh
@@ -27,14 +33,14 @@ Edit RUN.sh as following. Example file can be found in UCE Tool.
 Edit exec.sh as following. Example file can be found in UCE Tool.
 
 > #!/bin/sh
+> 
 > set -x
+> 
 > /emulator/retroplayer ./emu/bash_launcher_libretro.so "./roms/RUN.sh"
 
 ### Step 5 : Edit cartridge.xml
 
-Edit
-> <title>GAME</title>
-section in cartridge.xml. Replace GAME into the title you want to show in UCE menu. Example file can be found in UCE Tool.
+Edit **<title>GAME</title>** section in cartridge.xml. Replace GAME into the title you want to show in UCE menu. Example file can be found in UCE Tool.
 
 ### Step 6 : File Structure
 

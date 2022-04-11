@@ -8,7 +8,7 @@ Download UCETool.tar. Extract tar with following command.
 ### Step 2 : Prepare Emulator and Game Files
 
 Needed files
-> 1. Flycast (reicast.elf): standalone Flycast program. (Compile by yourself)
+> 1. Flycast (reicast.elf): standalone Flycast program. (Compile by yourself  https://github.com/pac-women/ALP-flycast) 
 > 
 > 2. Bashlauncher (bash_launcher_libretro.so): A dummy libretro core to run shell script.
 > 

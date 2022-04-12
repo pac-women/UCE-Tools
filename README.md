@@ -10,4 +10,4 @@ https://www.reddit.com/r/LegendsUltimate/comments/qvnx6w/run_third_party_softwar
 
 =====
 
-Please read documants for making UCE.
+Please read [this document](How%20to%20Making%20Standalone%20Flycast%20UCE.md) for making UCE.

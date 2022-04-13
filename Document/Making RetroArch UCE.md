@@ -1,9 +1,11 @@
-# Making Standalone Flycast UCE
+# Making RetroArch UCE
 
 ### Step 1 : Prepare UCE Tool
 
 Download UCETool.tar. Extract tar with following command.
-> tar -xfv UCETool.tar
+```
+tar -xfv UCETool.tar
+```
 
 ### Step 2 : Prepare Emulator and Game Files
 
@@ -20,24 +22,22 @@ Needed files
 
 Edit RUN.sh as following. Example file can be found in UCE Tool.
 
-> #!/bin/sh
-> 
-> set -x
-> 
-> export HOME=../SAVE/upper
-> 
-> ./emu/retroarch
-
+```
+#!/bin/sh
+set -x
+export HOME=../SAVE/upper
+./emu/retroarch
+```
 
 ### Step 4 : Edit exec.sh
 
 Edit exec.sh as following. Example file can be found in UCE Tool.
 
-> #!/bin/sh
-> 
-> set -x
-> 
-> /emulator/retroplayer ./emu/bash_launcher_libretro.so "./roms/RUN.sh"
+```
+#!/bin/sh
+set -x
+/emulator/retroplayer ./emu/bash_launcher_libretro.so "./roms/RUN.sh"
+```
 
 ### Step 5 : Edit cartridge.xml
 
@@ -65,7 +65,9 @@ Please adhere the following file structure when preparing your add-on image
 
 Chgane directory into where build_sq_cartridge_pack.sh ism and run following command.
 
-> ./build_sq_cartridge_pack.sh ./AddOn_GAME/ ./AddOn_GAME.UCE
+```
+./build_sq_cartridge_pack.sh ./AddOn_GAME/ ./AddOn_GAME.UCE
+```
 
 ### Step 8 : RetroArch Setting
 

@@ -72,7 +72,7 @@ Chgane directory into where build_sq_cartridge_pack.sh ism and run following com
 ### Step 8 : RetroArch Setting
 
 Connect an USB keyboard before alunching UCE.
-After launch UCE, press F1 to bring up setting menu. Use arrow key to navigate, X for confirm, Z for cancle.
+After launch UCE, press F1 to bring up setting menu. Use arrow key to navigate, X for confirm, Z for cancel.
 
 You should use **Install or Restore Core** function to add emulator cores,then download **Core Info** via **Online Updater**. Total file size is limited to 4MB.
 

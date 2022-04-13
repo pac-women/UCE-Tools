@@ -8,7 +8,7 @@ Download UCETool.tar. Extract tar with following command.
 ### Step 2 : Prepare Emulator and Game Files
 
 Needed files
-> 1. RetroArch and Cores (retroarch, *.so): RetroArch main program and emulator cores. (Compile by yourself)
+> 1. RetroArch and Cores (retroarch, *.so): RetroArch main program and emulator cores. (Compile by yourself. https://github.com/pac-women/ALP-RetroArch)
 > 
 > 2. Bashlauncher (bash_launcher_libretro.so): A dummy libretro core to run shell script.
 > 

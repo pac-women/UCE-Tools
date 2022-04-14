@@ -10,13 +10,10 @@ tar -xfv UCETool.tar
 ### Step 2 : Prepare Emulator and Game Files
 
 Needed files
-> 1. RetroArch and Cores (retroarch, *.so): RetroArch main program and emulator cores. (Compile by yourself. https://github.com/pac-women/ALP-RetroArch)
-> 
-> 2. Bashlauncher (bash_launcher_libretro.so): A dummy libretro core to run shell script.
-> 
-> 3. Game rom  : Rom files.
-> 
-> 4. Boxart (boxart.png): Boxart shows in UCE menu. PNG format with 222 x 306 resolution.
+* RetroArch and Cores (retroarch, *.so): RetroArch main program and emulator cores. (Compile by yourself. https://github.com/pac-women/ALP-RetroArch)
+* Bashlauncher (bash_launcher_libretro.so): A dummy libretro core to run shell script.
+* Game rom  : Rom files.
+* Boxart (boxart.png): Boxart shows in UCE menu. PNG format with 222 x 306 resolution.
 
 ### Step 3 : Edit Shell Script
 
@@ -71,8 +68,8 @@ Chgane directory into where build_sq_cartridge_pack.sh ism and run following com
 
 ### Step 8 : RetroArch Setting
 
-Connect an USB keyboard before alunching UCE.
-After launch UCE, press F1 to bring up setting menu. Use arrow key to navigate, X for confirm, Z for cancel.
+Connect an *USB keyboard* before alunching UCE.
+After launch UCE, press F1 to bring up setting menu. Use arrow keys to navigate, X for confirm, Z for cancel.
 
 You should use **Install or Restore Core** function to add emulator cores,then download **Core Info** via **Online Updater**. Total file size is limited to 4MB.
 

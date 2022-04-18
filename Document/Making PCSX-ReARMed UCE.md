@@ -4,7 +4,9 @@
 
 Download UCETool.tar. Extract tar with following command.
 
-``` tar -xvf UCETool.tar ```
+```
+tar -xvf UCETool.tar
+```
 
 ### Step 2 : Prepare Emulator and Game Files
 

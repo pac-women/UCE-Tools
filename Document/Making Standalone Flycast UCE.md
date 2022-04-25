@@ -66,5 +66,5 @@ Chgane directory into where build_sq_cartridge_pack.sh ism and run following com
 
 ### Step 8 : Flycast Setting
 
-Connect an USB keyboard before alunching UCE.
-After launch UCE, press tab to bring up setting menu. Use arrow key to navigate, X for confirm, C for cancle.
+Connect an USB keyboard before lunching UCE.
+After launch UCE, press tab to bring up setting menu. Use arrow key to navigate, X to confirm, C to cancle.

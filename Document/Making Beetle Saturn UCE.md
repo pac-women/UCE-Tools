@@ -12,7 +12,7 @@ tar -xvf UCETool.tar
 
 Needed files:
 - RetroArch (retroarch): RetroArch main program. (Compile by yourself. https://github.com/pac-women/ALP-RetroArch)
-- Beetle Saturn (mednafen_saturn_libretro.so): Beetle Saturn core. (Compile by yourself) 
+- Beetle Saturn (mednafen_saturn_libretro.so): Beetle Saturn core. (Compile by yourself. https://github.com/pac-women/ALP-BeetleSaturn/tree/main) 
 - Bashlauncher (bash_launcher_libretro.so): A dummy libretro core to run shell script.
 - Game rom (GAME.chd) : SS game rom. Use chd format file for better compatibility.
 - BIOS : SS BIOS. Please refer to Beetle Saturn doc for more information.(https://docs.libretro.com/library/beetle_saturn/#bios)

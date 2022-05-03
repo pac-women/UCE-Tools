@@ -29,7 +29,7 @@ set -x
  
 export HOME=/media/usb0/SS
 
-./emu/retroarch -L./emu/mednafen_saturn_libretro.so ./emu/GAME.chd
+./emu/retroarch -L ./emu/mednafen_saturn_libretro.so ./emu/GAME.chd
 ```
 
 ### Step 4 : Edit exec.sh
@@ -56,7 +56,7 @@ Please adhere the following file structure when preparing your add-on image
 - ./AddOn_GAME/emu/   		 <-- Put retroarch, mednafen_saturn_libretro.so, bash_launcher_libretro.so, GAME.chd in this folder (with permission 775)
 - ./AddOn_GAME/roms/   		 <-- Put RUN.sh in this folder (with permission 755)
 - ./AddOn_GAME/boxart/   		 <-- Put boxart.png in this folder (with permission 664)
-- ./AddOn_GAME/title      	 <-- symbolic link to "boxart/boxart.png" (with permission 664)
+- ./AddOn_GAME/title.png      	 <-- symbolic link to "boxart/boxart.png" (with permission 664)
 - ./AddOn_GAME/cartridge.xml 	 <-- info header for menu display. *in XML format. (with permission 664)
 - ./AddOn_GAME/exec.sh       	 <-- the script file to run emulator and game files. (with permission 755)
 

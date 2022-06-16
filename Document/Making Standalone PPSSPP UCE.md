@@ -11,7 +11,7 @@ tar -xvf UCETool.tar
 ### Step 2 : Prepare Emulator and Game Files
 
 Needed files:
-- PPSSPP: PPSSPP program and assets. (Compile by yourself) 
+- PPSSPP: PPSSPP program and assets. (Compile by yourself. https://github.com/pac-women/ALP-PPSSPP) 
 - Bashlauncher (bash_launcher_libretro.so): A dummy libretro core to run shell script.
 - Game rom (GAME.ISO) : PSP game rom. Use ISO or CSO format file for better compatibility.
 - Boxart (boxart.png): Boxart shows in UCE menu. PNG format with 222 x 306 resolution.

@@ -16,7 +16,7 @@ Needed files:
 - PCSX-ReARMed (pcsx_rearmed_libretro.so): PCSX-ReARMed core. (Compile by yourself https://github.com/pac-women/ALP-PCSX-ReARMed)
 - PPSSPP: PPSSPP program and assets. (Compile by yourself. https://github.com/pac-women/ALP-PPSSPP) 
 - Beetle Saturn (mednafen_saturn_libretro.so): Beetle Saturn core. (Compile by yourself. https://github.com/pac-women/ALP-BeetleSaturn/tree/main) 
-- Bashlauncher (bash_launcher_libretro.so): A dummy libretro core to run shell script.
+- Bashlauncher (bash_launcher_libretro.so): A dummy libretro core to run shell script. (Get it here. https://github.com/pac-women/UCE-Tools/blob/main/UCETool.tar)
 - Game rom (GAME.chd) : SS game rom. Use chd format file for better compatibility.
 - BIOS : SS BIOS. Please refer to Beetle Saturn doc for more information.(https://docs.libretro.com/library/beetle_saturn/#bios)
 - Boxart (boxart.png): Boxart shows in UCE menu. PNG format with 222 x 306 resolution.

@@ -1,11 +1,11 @@
-# Making DC/PS/PSP/SS UCE with Windows Tool
+# Making DC/PS/PSP/SS UCE with Windows AddOnTool
 
-### Step 1 : Prepare UCE Tool
+### Step 1 : Prepare Windows AddOnTool
 
-Download UCETool
+Download Windows AddOnTool
 
 ```
-123
+https://github.com/pac-women/UCE-Tools/blob/main/Windows%20UCE%20Tool/AddOnToolInst.zip
 ```
 
 ### Step 2 : Prepare Emulator and Game Files
@@ -34,4 +34,5 @@ fsutil.exe file setCaseSensitiveInfo "C:\Users\dorae\AppData\Local\Temp" enable
 Untar the tar file into Temp folder with 7-zip.
 
 ### Step 3 : Create UCE with Windows Tool
-
+Select the type you want to create and load files via dialog box.
+![WindowsWindows](https://github.com/pac-women/UCE-Tools/blob/main/Windows%20UCE%20Tool/WindowsWindows.png)

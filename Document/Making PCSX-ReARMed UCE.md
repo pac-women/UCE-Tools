@@ -12,7 +12,7 @@ tar -xvf UCETool.tar
 
 Needed files:
 - RetroArch (retroarch): RetroArch main program. (Compile by yourself. https://github.com/pac-women/ALP-RetroArch)
-- PCSX-ReARMed (pcsx_rearmed_libretro.so): PCSX-ReARMed core. (Compile by yourself https://github.com/pac-women/ALP-PCSX-ReARMed/blob/main/README.md) 
+- PCSX-ReARMed (pcsx_rearmed_libretro.so): PCSX-ReARMed core. (Compile by yourself https://github.com/pac-women/ALP-PCSX-ReARMed) 
 - Bashlauncher (bash_launcher_libretro.so): A dummy libretro core to run shell script.
 - Game rom (GAME.chd) : PS game rom. Use chd format file for better compatibility.
 - Boxart (boxart.png): Boxart shows in UCE menu. PNG format with 222 x 306 resolution.
